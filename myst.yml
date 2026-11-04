@@ -8,7 +8,10 @@ project:
   github: https://github.com/PetervanCapel/Eerste-poging # change this to your own repository
   date: 2026-11-04
   thumbnail: style/thumbnail.jpg
-  numbered: true
+  numbering:
+    title: true
+    #headings_1: true
+    headings: true
   # specify authors in authors.yml file
 
   # used to load /reuse materials from other repositories
@@ -50,7 +53,7 @@ site:
 
   # styling options with logo's and custom css
   options:
-    favicon:      style/favicon.ico
+    favicon:      style/UUlogo.png
     logo:         style/UUlogo.png
     logo_dark:    style/UUlogo-dark.png
     logo_url:     https://jboss.tudelft.nl
