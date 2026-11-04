@@ -1,0 +1,22 @@
+# Use this workflow to make use of the central workflows from https://github.com/TUD-JB-OS/deploy/.github/workflows/
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+      
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  
+jobs:
+  deploy:
+    uses: TUD-JB-OS/deploy/.github/workflows/jboss.yml@main
+    with:
+      build_typst_pdf: true
+      build_latex_pdf: false
+      execute_python: false
+      run_nb_checks: false
+      run_fig_checks: false
+      dependency_manager: pixi
