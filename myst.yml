@@ -1,9 +1,9 @@
 # $env:BASE_URL = "/starterkit"
 version: 1
 project:
-  title: TU Delft's JB Starterkit
+  title: Eerste poging
   # description:
-  keywords: [Jupyter Book, Open Science, TU Delft, Starterkit]
+  keywords: [Jupyter Book, Open Science, TU Delft]
 
   github: https://github.com/TUD-JB-OS/starterkit # change this to your own repository
   date: 2026-10-09
