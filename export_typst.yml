@@ -134,7 +134,7 @@ project:
       # Optional: override the shared fallback logo used on the title page
       # and on the graphical cover when no cover-specific logo file is set.
       # If omitted, the template's built-in logo is used.
-      # logo: content/assets/logo.svg
+      logo: content/assets/logo.svg
       
       # Optional ISBN project option shown in the colophon publication table when provided.
       # isbn: "978-3-16-148410-0"

@@ -53,7 +53,7 @@ site:
 
   # styling options with logo's and custom css
   options:
-    favicon:      style/UUlogo.png
+    favicon:      style/favicon.ico
     logo:         style/UUlogo.png
     logo_dark:    style/UUlogo-dark.png
     logo_url:     https://jboss.tudelft.nl
