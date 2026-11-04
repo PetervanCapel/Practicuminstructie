@@ -1,32 +1,16 @@
----
-title: The TUD starterkit for open publishing with JupyterBook
-site:
-  hide_outline: true
-  hide_toc: true
-  hide_title_block: true
-  hide_authors: false
-      
-numbering:
-  title:
-    enabled: false
+# Algemene Instructie bij de Leerlijn Experimentele Natuurkunde
 
-no-update-date: true
----
+```{figure} figuren/research_cycle4.svg
+:name: dictaat_voorblad
+```
 
-+++ { "kind": "split-image" }
+Dit is de beta-versie van de Algemene Studenteninstructie in een online jupyter book. 
+De ordening en structuur is zo goed als identiek aan de pdf-versie van deze instructie. 
 
-## The TUD starterkit for open publishing with JupyterBook
+Het enige verschil is dat in de pdf-versie de appendices tellen als A, B etc, terwijl ze in de 
+online versie doortellen ten opzichte van de hoofdstukken uit het dictaat.
 
-a quick setup for your open publishing project.
+```{tableofcontents}
+```
 
-{button}`Use this template <https://github.com/new?template_name=starterkit&template_owner=TUD-JB-OS>`  
-
-Originally created by  
-*Freek Pols*
-
-![](figures/cover.png)
-
-+++
-
-This thesis reports on the use of Jupyter Book for open publishing at TU Delft - especially bachelor and master thesis. It provides a quick setup for your open publishing project, including a template and guidelines for using Jupyter Book effectively. The starterkit is designed to help you create and share your research in an open and accessible way.
-
+Eindredactie: Peter van Capel
