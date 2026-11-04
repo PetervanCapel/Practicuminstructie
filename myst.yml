@@ -5,7 +5,7 @@ project:
   # description:
   keywords: [Jupyter Book, Open Science, TU Delft]
 
-  github: https://github.com/TUD-JB-OS/starterkit # change this to your own repository
+  github: https://github.com/PetervanCapel/Eerste-poging # change this to your own repository
   date: 2026-10-09
   thumbnail: style/thumbnail.jpg
   numbering: 
