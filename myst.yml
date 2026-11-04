@@ -8,8 +8,11 @@ project:
   github: https://github.com/PetervanCapel/Eerste-poging # change this to your own repository
   date: 2026-11-04
   thumbnail: style/thumbnail.jpg
-  numbering: 3
+  numbering:
     title: false
+    heading_1: true
+    heading_2: true
+    heading_3: true
   # specify authors in authors.yml file
 
   # used to load /reuse materials from other repositories
